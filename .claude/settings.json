@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "brainstormer": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/auditmos/brainstormer.git"
+      }
+    }
+  }
+}
