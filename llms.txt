@@ -1,0 +1,35 @@
+# Brainstormer Consulting
+
+> AI consulting firm — discovery interviews, PRDs, vertical-slice plans,
+> and dependency-ordered GitHub issues.
+
+## Company
+
+- [Company Manifest](COMPANY.md): Root package — mission, goals, operating principles
+
+## Agents
+
+- [CEO / Engagement Lead](agents/ceo/AGENTS.md): Orchestrates full engagement pipeline, applies MVP lens at every phase gate
+- [Discovery Analyst](agents/discovery-analyst/AGENTS.md): Structured interviews covering problem, users, business model, scale, and domain concerns
+- [Product Architect](agents/product-architect/AGENTS.md): PRD creation and vertical-slice planning
+- [Delivery Manager](agents/delivery-manager/AGENTS.md): Dependency-ordered GitHub issue creation with AFK/HITL classification
+- [Lead Engineer](agents/lead-engineer/AGENTS.md): TDD implementation and code shipping
+
+## Team
+
+- [Consulting](teams/consulting/TEAM.md): Full-service engagement team — all 5 agents
+
+## Skills (from auditmos/brainstormer)
+
+- [Ask](https://github.com/auditmos/brainstormer/blob/main/skills/ask/SKILL.md): Discovery interview
+- [Blueprint](https://github.com/auditmos/brainstormer/blob/main/skills/blueprint/SKILL.md): PRD creation
+- [Carve](https://github.com/auditmos/brainstormer/blob/main/skills/carve/SKILL.md): PRD to vertical-slice plan
+- [Dispatch](https://github.com/auditmos/brainstormer/blob/main/skills/dispatch/SKILL.md): PRD to GitHub issues
+- [TDD](https://github.com/auditmos/brainstormer/blob/main/skills/tdd/SKILL.md): Test-driven development
+- [Ship](https://github.com/auditmos/brainstormer/blob/main/skills/ship/SKILL.md): Lint, commit, push
+- [Lean](https://github.com/auditmos/brainstormer/blob/main/skills/lean/SKILL.md): MVP advisor
+- [Brainstorm](https://github.com/auditmos/brainstormer/blob/main/skills/brainstorm/SKILL.md): Full workflow orchestration
+
+## Workflow
+
+Pipeline: Ask -> Blueprint -> Carve -> Dispatch -> TDD. Use Lean at any point.

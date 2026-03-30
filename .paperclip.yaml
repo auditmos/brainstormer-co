@@ -1,0 +1,20 @@
+schema: paperclip/v1
+agents:
+  product-architect:
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  delivery-manager:
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  lead-engineer:
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
