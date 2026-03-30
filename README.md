@@ -20,25 +20,26 @@ CEO / Engagement Lead (brainstorm, lean)
 4. **Dispatch** — Dependency-ordered GitHub issues (AFK/HITL classified)
 5. **Implementation** — TDD with vertical slices, lint + ship
 
-## Deploy on Paperclip
+## Getting Started
 
 ```bash
-npx paperclipai onboard
-```
-
-Point it at this repo. Paperclip discovers the company manifest, creates agents, and starts heartbeats.
-
-See [Paperclip docs](https://docs.paperclip.ing) for configuration.
-
-## Solo Mode (Claude Code)
-
-Works without Paperclip — clone and use directly with Claude Code:
-
-```bash
-git clone https://github.com/auditmos/brainstormer-co.git
+git clone --recurse-submodules https://github.com/auditmos/brainstormer-co.git
 cd brainstormer-co
-# Use /brainstorm to start a full engagement
 ```
+
+If already cloned without submodules: `git submodule update --init`
+
+### Deploy on Paperclip
+
+```bash
+npx paperclipai company import ./brainstormer-co --target new --new-company-name "Brainstormer Consulting"
+```
+
+See [Paperclip docs](https://docs.paperclip.ing) for agent adapter configuration.
+
+### Solo Mode (Claude Code)
+
+Works without Paperclip — use `/brainstorm` to start a full engagement directly.
 
 ## Skills
 
